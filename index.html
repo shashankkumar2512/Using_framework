@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shashank Kumar — Tech Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@motionone/dom/dist/motion.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-slate-900 font-sans antialiased">
+
+  <div class="min-h-screen flex flex-col items-center py-12 px-4">
+    <div class="w-full max-w-5xl">
+
+      <header id="hero" class="rounded-2xl overflow-hidden bg-gradient-to-r from-sky-600 to-indigo-600 text-white shadow-lg p-10 md:flex md:items-center md:justify-between">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold leading-tight">Shashank Kumar</h1>
+          <p class="mt-2 text-sm md:text-base opacity-90">B.Tech CSE • Web Developer • Machine Learning Enthusiast</p>
+          <p class="mt-4 max-w-xl text-sm md:text-base opacity-95">I build fast, accessible web applications and explore applied machine learning. I focus on readable code, pragmatic engineering, and delightful user experiences.</p>
+          <div class="mt-6 flex gap-3">
+            <a href="#projects" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-md text-sm transition">Projects</a>
+            <a href="#contact" class="inline-flex items-center gap-2 bg-white text-sky-700 hover:brightness-95 px-4 py-2 rounded-md text-sm font-semibold transition">Contact</a>
+          </div>
+        </div>
+
+        <div class="mt-6 md:mt-0 flex items-center gap-6">
+          <div class="w-28 h-28 rounded-full bg-white/20 flex items-center justify-center text-lg font-semibold">SK</div>
+          <div class="hidden md:block text-right">
+            <div class="text-sm opacity-90">Location</div>
+            <div class="font-medium">Bhubaneswar, India</div>
+          </div>
+        </div>
+      </header>
+
+      <div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <aside class="lg:col-span-1 space-y-6">
+          <section class="card">
+            <h3 class="section-title">About</h3>
+            <p class="text-sm text-slate-700">I’m a Computer Science student building web apps and experimenting with ML models. I enjoy performance tuning, clean UI, and well-tested code.</p>
+          </section>
+
+          <section class="card">
+            <h3 class="section-title">Contact</h3>
+            <ul class="text-sm text-slate-700 space-y-2">
+              <li>✉️ <a href="mailto:shashankkumar251204@gmail.com" class="link">shashankkumar251204@gmail.com</a></li>
+              <li>🔗 <a href="https://github.com/shashankkumar2512" class="link">github.com/shashank-kumar</a></li>
+              <li>🔗 <a href="https://www.linkedin.com/in/shashank-kumar-1b5493359 " class="link">linkedin.com/in/shashank-kumar</a></li>
+              <li>📞 +91 9279920033</li>
+            </ul>
+          </section>
+
+          <section class="card">
+            <h3 class="section-title">Skills</h3>
+            <div class="flex flex-wrap gap-2 mt-2">
+              <span class="chip">Java</span>
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">React</span>
+            </div>
+          </section>
+        </aside>
+
+        <main class="lg:col-span-2 space-y-6">
+          <section class="card" id="projects">
+            <h3 class="section-title">Highlighted Projects</h3>
+            <div class="mt-4 space-y-4">
+              <article class="project-item">
+                <div class="flex justify-between items-start">
+                  <div>
+                    <h4 class="font-semibold">Portfolio Website</h4>
+                    <p class="text-sm text-slate-700 mt-1">A responsive portfolio built with Tailwind CSS and vanilla JS. Focus on accessibility and fast load times.</p>
+                  </div>
+                  <div class="text-sm text-slate-500">2025</div>
+                </div>
+                <div class="mt-3 flex gap-2">
+                  <a class="tag" href="#">Web</a>
+                  <a class="tag" href="#">Tailwind</a>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="card">
+            <h3 class="section-title">Achievements</h3>
+            <div class="mt-4 space-y-4">
+              <div class="exp-item">
+                <div class="flex justify-between items-center">
+                  <div>
+                    <div class="font-semibold">🏆 Top 10 finalist — College Hackathon 2024</div>
+                    <div class="font-semibold">🎓 Certified in Data Structures</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="card" id="contact">
+            <h3 class="section-title">Get in touch</h3>
+            <p class="text-sm text-slate-700">I’m open to internships and freelance projects. Reach out via email or LinkedIn — I reply quickly.</p>
+            <div class="mt-4">
+              <a href="mailto:shashankkumar251204@gmail.com" class="inline-flex items-center gap-2 bg-sky-600 text-white px-4 py-2 rounded-md hover:brightness-95 transition">Contact Me</a>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <p class="mt-8 text-center text-xs text-slate-400">© 2025 Shashank Kumar — Built with Tailwind CSS • Animations by Motion One</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
